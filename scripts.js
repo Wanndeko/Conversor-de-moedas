@@ -13,7 +13,7 @@ const convert_values = async () => {
    const euro = data.EURBRL.high
    const bit_coin =data.BTCBRL.high
 
-   console.log(data)
+   
 
    real_value_text.innerHTML = new Intl.NumberFormat('pt-BR', {
       style: 'currency', currency: 'BRL'
