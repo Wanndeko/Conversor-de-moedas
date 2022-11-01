@@ -10,33 +10,35 @@
 
 body {
     background-color: #35086e;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
-    width: 375px;
+    width: 365px;
     background-color: #030d2f8a;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
     box-shadow: 0px -14px 50px 5px #3a24ff;
     border-radius: 8px;
+
 
 }
 
 header {
     background-color: #1B83E2;
-    height: 66px;
+    height: 50px;
     box-shadow: inset 3px -2px 20px 0px rgb(0 0 0 / 83%);
     border-radius: 8px 8px 0px 0px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
-    text-align: center;
+    
     font-style: normal;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 18px;
     color: #F4F4F4;
-    padding-top: 25px;
     font-weight: 400;
 }
 
@@ -59,13 +61,13 @@ select {
     border: 1px solid #BBBBBB;
     border-radius: 4px;
     width: 100%;
-    height: 35px;
+    height: 30px;
     cursor: pointer;
     outline: none;
     padding-left: 16px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
     margin-top: 6px;
-    margin-bottom: 23px;
+    margin-bottom: 18px;
 }
 
 input {
@@ -110,11 +112,17 @@ button:active {
 section {
     border: 1px solid #1B83E2;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .container-currency {
-    text-align: center;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 9px;
 }
 
 .currency-name {
@@ -132,6 +140,5 @@ section {
 }
 
 .arrow-img {
-    margin: 13px auto;
-    display: block;
+    
 }
