@@ -36,7 +36,7 @@ const convert_values = async () => {
    }
 
    if (select.value === "BitCoin") {
-      currency_value_text.innerHTML = (input_real / bit_coin / 1000).toFixed(8)
+      currency_value_text.innerHTML = (input_real * bit_coin )
    }
 
 
