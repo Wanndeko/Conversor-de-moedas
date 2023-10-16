@@ -15,7 +15,9 @@
 </ul>
 
 <h2>Descrição📃</h2>
-<p>Projeto de conversor de moedas </p>
+<p>Projeto de conversor de moedas, que faz conversão de ,até o momento, 3 moedas diferentes.</p>
+
+<a href=https://wanndeko.github.io/Conversor-de-moedas/ target="blank">Link do projeto online 🚀 </a>
 
 <h2>Utilização</h2>
 <p>Na tela inicial do projeto ha um campo de entrada com o nome "valor", nele basta digitar o valor que deseja converter e depois clicar no botão "converter" e o resultado irá aparecer na tela abaixo.</p><br>
